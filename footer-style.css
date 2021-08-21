@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*Footer*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.footer{
+    display: flex;
+    border: #0088A9;
+    padding: 10px;
+    padding-left: 320px;
+    padding-right: 240px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer .item, .footer .item-center{
+    height: 120px;
+    width: 400px; /* A fixed width as the default */
+    text-align: center;
+    justify-content:space-around;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  .footer{
+    border-top-style: solid;
+    border-color: black;
+  }
+  .footer .item-center { 
+    flex-grow: 1; /* Set the middle element to grow and stretch */
+    text-align: center;
+  }
+  
+  .footer .item + .footer .item { 
+    margin-left: 2%; 
+  }
+  
+  .footer .item{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+  }
+  
+  .footer .item #social{
+    height: 40px;
+    margin:10px;
+    justify-content:right;
+  }

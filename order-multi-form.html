@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order page</title>
+    <link rel="stylesheet" href="order-multi-form-style.css">
+    <!--Call the Header and Footer-->
+    <script src="../Header and Footer/main.js"></script>
+</head>
+
+
+  <!--Header-->
+  <my-header></my-header>
+
+    <body>
+  
+    <div class="form-container">
+        <form id="regForm" action="">
+        <div class="tab">
+          <div class="order-container">
+            <div class="order1">
+                <div class="item-container">
+                    <div class="column-item">
+                        <div class="item">Item</div>
+                        <div class="item">
+                            <!--Dropdown for coffee options-->
+                            <select id="coffeeListA">
+                                <option disabled hidden selected>Adult Concession</option> <!--this part is hidden-->
+                                <option value=15.00>Adult option1</option>
+                                <option value=20.00>Adult option2</option>
+                                <option value=25.00>Adult option3</option>
+                                
+                                
+                            </select>
+                        </div>
+                
+                        <div class="item">
+                            <select id="foodListA" class="custom-select"    >
+                                <option disabled hidden selected>Kids Concession</option>
+                                <option value=10.00>Kids option1</option>
+                                <option value=12.50>Kids option2</option>
+                                <option value=15.00>Kids option3</option>
+                                
+                            </select>
+                        </div>
+                        <br><br>
+                        <div class="item">
+                          <p id="totalTitle">Total Concession & Price</p>
+                        </div>  
+                    </div>
+    
+                    <div class="column">
+                        <div class="item">Option Price</div>
+                        <div class="item">
+                            <p id="coffee_unitPriceA"></p>
+                        </div>
+                       
+                        <div class="item">
+                            <p id="food_unitPriceA"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="column">
+                        <div class="item">Quantity</div>
+                        <div class="item">
+                            <select id='coffee_quantityA'>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="item">
+                            <select id='food_quantityA'>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <br><br>
+                        <div class="item">
+                          <p id="grandQuantity">0</p>
+                        </div>
+                        
+                    </div>
+                    <div class="column">
+                        <div class="item">Price</div>
+                        <div class="item">
+                            <p id="coffee_totalPriceA">0</p>
+                        </div>
+                        <div class="item">
+                            <p id="food_totalPriceA">0</p>
+                        </div>
+                        <br><br>
+                        <div class="item">
+                          <p>$<b id="grandPrice">0.00</b></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="button-container">
+            <div class="item" id="resetBtn">
+                <div class="reset-container">
+                  <input class="item" type="button" id="btnReset" value="Reset" onclick="Reset();" />
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab"><h1>Contact Info:</h1>
+            <br>
+            <span id="fnameerror" style="color: red;"></span>
+            <p><input id="firstname" name="firstname" placeholder="First Name..." oninput="this.className = '' " required></p>
+            <br>
+            <span id="lnameerror" style="color: red;"></span>
+            <p><input id="lastname" name="lastname" placeholder="Last Name..." oninput="this.className = ''" required></p>
+            <br>  
+            <span id="emailerror" style="color: red;"></span>
+            <p><input id="email" name="email" placeholder="E-mail..." oninput="this.className = ''" required></p>
+            <br>
+            <span id="phoneerror" style="color: red;"></span>
+            <p><input id="phoneNo" type="number" name="phoneNo" placeholder="Phone..." oninput="this.className = ''"></p>
+            
+            
+        </div>
+
+        <div class="tab"><h1>Payment Details:</h1> 
+            <br><br>
+            
+            <div class="payment-container">
+              <p class="paymentdetails">
+                <select id='paymentType'>
+                  <option value="1">Visa</option>
+              </select>
+              </p>
+              <p class="paymentdetails">
+                <span id="cardnumbererror" style="color: red;"></span>
+                <input id="cardnumber" name="cardnumber" placeholder="Card Number" oninput="this.className = ''">
+              </p>
+              <p class="paymentdetails">
+                <span id="cardholdernameerror" style="color: red;"></span>
+                <input id="cardholdername" name="cardholdername" placeholder="Card Holder Name" oninput="this.className = ''">
+              </p>
+              <p class="paymentdetails">
+                <span id="cvcerror" style="color: red;"></span>
+                <input id="cvc" name="cvc" placeholder="CVC" oninput="this.className = ''">
+              </p>
+              <p class="paymentdetails">
+                <span id="validuntilerror" style="color: red;"></span>
+                <input id="validuntil" oninput="dateInput(); " type="date" class="stayDate" name="validuntil">
+              </p>
+            </div>
+            
+        </div>
+
+        <div class="tab">
+          <img id="thankYou" src=".\Orderpage pictures\thankYou.jpg" style="width:70%">
+        </div>
+
+        <br>
+        
+    </form>
+    <div class="prevNextContainer" style="overflow:hidden;">
+      <div style="float:left;">
+          <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      </div>
+
+      <div id="popup" style="float:right;">
+        <button type="button" id="nextBtn" onclick="nextPrev(1)" value="confirm"></button>
+      </div>
+
+    </div>
+
+    <div id="circles" style="text-align:center;margin-top:40px;">
+      <span class="step"></span>
+      <span class="step"></span>
+      <span class="step"></span>
+      <span class="step"></span>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <my-footer></my-footer>
+</body>
+<!--Order function-->
+    <script src="order-script.js"></script>
+    
+</html>
