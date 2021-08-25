@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E918DF46-83A6-6E5B-990B-4A7AA98625A4" containerWithKeyObject="82E3AEA8-D758-BAD6-B5DD-AE3CC9A43976" localFKIndex="AAFEBC40-85D5-0D6E-5EEA-71684B3532EB" name="Payment_Member_FK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<comment><![CDATA[Member have to have at least one payment and could have more then one payments 
+Payment only can have one member ]]></comment>
+<generatorID>98489760-A9B3-5EE4-593D-FC2DCA790FEC</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<referredTableLongName>Member</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C10E4278-5705-88DB-DC53-3C959B9C3616</referredTableID>
+<keyObject>44573D33-7D98-0AEA-9A11-5DF2AFE8172F</keyObject>
+<referredKeyID>44573D33-7D98-0AEA-9A11-5DF2AFE8172F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Mem_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

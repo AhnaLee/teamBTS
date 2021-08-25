@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F410B3BF-2AB5-B609-DF2D-DE7614C4A212" containerWithKeyObject="74BDAE91-7BFD-C1AB-E7FA-D2DBDD026487" localFKIndex="57FF382A-2B27-E84C-7EAD-2511FAF85793" name="Class_Admin_FK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<comment><![CDATA[Admin have to have at least one class and could have more then one classes
+Class can only have one Admin at once ]]></comment>
+<generatorID>D5718C00-C319-028D-E6CC-33AB7FDDDD13</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<referredTableLongName>Admin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EFAA96C1-2965-7FB8-9A7E-F03029DAF904</referredTableID>
+<keyObject>4D9B7040-5ED7-C86F-2ED5-5ADD4ECA9668</keyObject>
+<referredKeyID>4D9B7040-5ED7-C86F-2ED5-5ADD4ECA9668</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Admin_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

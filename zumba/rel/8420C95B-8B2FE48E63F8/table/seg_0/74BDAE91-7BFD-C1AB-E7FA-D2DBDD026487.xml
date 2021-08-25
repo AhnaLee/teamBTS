@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74BDAE91-7BFD-C1AB-E7FA-D2DBDD026487" name="Class">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>BB20C97A-0B08-8D16-AF29-69239B94F012</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Class_Id" id="B6A2B0DE-C2AB-36BB-EC8D-6D0079B4F6FB">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>B1152094-4B2E-B6EC-F8E2-D43853C4B5AB</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Class_Day" id="8DFDC429-BE06-40E8-EBF2-8D1D3A077801">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>9AA87755-FAE4-4CC1-0621-17B1A47C918D</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Class_Time" id="CC754749-9A3C-F206-33D0-6F255983F701">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>76B04711-EC0A-4AC8-F426-FE65AAE0509F</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Member_Mem_Id" id="40C21F06-8F6D-407C-D691-4C35A02CB747">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>C35AF5F4-A8BF-1879-7992-A594B40C5ACE</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0A0B2A3-8458-9C52-F289-65642F26AB31" referredColumn="DF87F676-8CDD-B86B-FB22-E8CA21F50244"/>
+</associations>
+</Column>
+<Column name="Admin_Admin_Id" id="DF3161F5-7ACB-F7A2-6E00-7C365CB89BBF">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>FD3AE42C-2E44-B495-2942-66653C2F05DD</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F410B3BF-2AB5-B609-DF2D-DE7614C4A212" referredColumn="A68D67B8-A996-16F8-1F87-19DCFFE1771D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C645142-2A57-248B-A642-AC0FCB334591" name="Class_PK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>80337DB7-9AD7-F7E3-CD8B-A32B91DF141D</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6A2B0DE-C2AB-36BB-EC8D-6D0079B4F6FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57FF382A-2B27-E84C-7EAD-2511FAF85793" name="Class_Admin_FK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>D5718C00-C319-028D-E6CC-33AB7FDDDD13</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF3161F5-7ACB-F7A2-6E00-7C365CB89BBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6848DE11-B99C-FED0-5802-6C9FD644F6DA" name="Class_Member_FK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>1F00CAC6-33DD-D29F-E880-AAFCE163ECF1</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40C21F06-8F6D-407C-D691-4C35A02CB747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

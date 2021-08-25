@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="memToClass" directorySegmentName="seg_0" id="1F00CAC6-33DD-D29F-E880-AAFCE163ECF1">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:44:52 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<sourcePk>80337DB7-9AD7-F7E3-CD8B-A32B91DF141D</sourcePk>
+<targetPk>AD3B94BB-34F2-E1C4-AFD5-BC25A891FEE7</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BB20C97A-0B08-8D16-AF29-69239B94F012</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4956D226-A8EC-931E-A32B-9F4CEBB260A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

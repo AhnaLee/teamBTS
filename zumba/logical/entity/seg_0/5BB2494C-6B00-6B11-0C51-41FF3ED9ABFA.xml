@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BB2494C-6B00-6B11-0C51-41FF3ED9ABFA" name="Payment">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 01:59:23 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Payment_Num" id="8128DD03-0ACC-22A8-02EB-DE0711E3D88A">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-19 19:46:08 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Payment_Date" id="D870F4C9-F183-8D78-3895-6601848480AB">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-19 19:47:23 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Payment_Amt" id="472EDA72-8BB0-DC37-C63C-20B48AD4A92B">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-19 19:47:34 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mem_Id" id="576C67E4-DE99-8171-173C-B11CAC5CA65F">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:44:22 UTC</createdTime>
+<generatorID>98489760-A9B3-5EE4-593D-FC2DCA790FEC</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<referedAttribute>EA07BFC6-5F3E-4AB7-F223-A27573E54AB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A91C645F-3E46-0EC2-A3E1-7B7A74EB7983" name="Payment PK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-19 19:47:06 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8128DD03-0ACC-22A8-02EB-DE0711E3D88A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

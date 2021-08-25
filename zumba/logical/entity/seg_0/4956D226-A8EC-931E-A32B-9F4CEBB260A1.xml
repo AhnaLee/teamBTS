@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4956D226-A8EC-931E-A32B-9F4CEBB260A1" name="Member">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 01:59:03 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Mem_Id" id="EA07BFC6-5F3E-4AB7-F223-A27573E54AB8">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 02:01:49 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mem_FName" id="B390212A-4380-DACF-0AC0-81D33559B40B">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 02:05:26 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mem_LName" id="DD4C3F14-331A-75BA-F64C-F5C7610C0FE6">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 02:06:16 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mem_Phone" id="F09F30E2-4341-C15B-D000-E687800F52C7">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 02:06:44 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,20</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mem_Email" id="5F156FAA-0629-A361-D45B-3DD8D5FEF0C3">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 02:07:28 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mem_DOB" id="52891BF3-B4DB-11E1-2023-47856322E8A8">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 02:08:03 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mem_ConType" id="6CC345EE-B610-2807-BDE3-7B48BA278EA5">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 02:08:14 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD3B94BB-34F2-E1C4-AFD5-BC25A891FEE7" name="Member PK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 02:02:04 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA07BFC6-5F3E-4AB7-F223-A27573E54AB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

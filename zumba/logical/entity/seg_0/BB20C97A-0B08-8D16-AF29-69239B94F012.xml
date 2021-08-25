@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB20C97A-0B08-8D16-AF29-69239B94F012" name="Class">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-18 01:59:32 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Class_Id" id="B1152094-4B2E-B6EC-F8E2-D43853C4B5AB">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-19 19:48:33 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Class_Day" id="9AA87755-FAE4-4CC1-0621-17B1A47C918D">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-19 19:48:58 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Class_Time" id="76B04711-EC0A-4AC8-F426-FE65AAE0509F">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-19 19:49:29 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mem_Id" id="C35AF5F4-A8BF-1879-7992-A594B40C5ACE">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:45:38 UTC</createdTime>
+<generatorID>1F00CAC6-33DD-D29F-E880-AAFCE163ECF1</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EA07BFC6-5F3E-4AB7-F223-A27573E54AB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Admin_Id" id="FD3AE42C-2E44-B495-2942-66653C2F05DD">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:46:34 UTC</createdTime>
+<generatorID>D5718C00-C319-028D-E6CC-33AB7FDDDD13</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<referedAttribute>BEC696E9-8078-73B1-F7E0-85F40E84DCC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80337DB7-9AD7-F7E3-CD8B-A32B91DF141D" name="Class PK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-19 19:48:41 UTC</createdTime>
+<ownerDesignName>zumba</ownerDesignName>
+<engineerTo>
+<item key="8420C95B-71ED-FCB5-2910-8B2FE48E63F8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1152094-4B2E-B6EC-F8E2-D43853C4B5AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

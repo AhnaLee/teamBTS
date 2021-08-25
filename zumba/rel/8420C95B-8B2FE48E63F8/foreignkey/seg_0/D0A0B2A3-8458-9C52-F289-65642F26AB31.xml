@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0A0B2A3-8458-9C52-F289-65642F26AB31" containerWithKeyObject="74BDAE91-7BFD-C1AB-E7FA-D2DBDD026487" localFKIndex="6848DE11-B99C-FED0-5802-6C9FD644F6DA" name="Class_Member_FK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<comment><![CDATA[Member have to have at least one class and could have more then one classes
+Class only can have one member at one time]]></comment>
+<generatorID>1F00CAC6-33DD-D29F-E880-AAFCE163ECF1</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<referredTableLongName>Member</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C10E4278-5705-88DB-DC53-3C959B9C3616</referredTableID>
+<keyObject>44573D33-7D98-0AEA-9A11-5DF2AFE8172F</keyObject>
+<referredKeyID>44573D33-7D98-0AEA-9A11-5DF2AFE8172F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Mem_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

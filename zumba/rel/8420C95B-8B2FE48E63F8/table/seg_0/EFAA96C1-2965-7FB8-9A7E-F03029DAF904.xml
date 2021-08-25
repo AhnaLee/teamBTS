@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFAA96C1-2965-7FB8-9A7E-F03029DAF904" name="Admin">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>B911E036-CE1A-71A9-5F03-8DE11FB4E223</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Admin_Id" id="A68D67B8-A996-16F8-1F87-19DCFFE1771D">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>BEC696E9-8078-73B1-F7E0-85F40E84DCC6</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ad_Name" id="B25EFD47-D23A-421E-1DE6-7A90DF64F47B">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>5F14463E-583E-ED33-4A06-339D5CE7CE7F</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ad_Phone" id="E8EAEDC6-0170-72F3-C9BE-385F990DBB79">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>DB04A1B5-2D69-E213-3376-C312D9F300E4</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ad_Email" id="AC68E932-1DFA-073E-6C0A-8540299C198A">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>016F237E-08C1-43B4-E434-754B29C355C0</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ad_add" id="283A9AF6-A037-DB49-6F98-B1139A99241A">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>E96C4D1D-6E5C-5B4A-108F-0D76440EA46F</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D9B7040-5ED7-C86F-2ED5-5ADD4ECA9668" name="Admin_PK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>691B271D-D9EE-64D4-8CD5-5C3E48C14EA5</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A68D67B8-A996-16F8-1F87-19DCFFE1771D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

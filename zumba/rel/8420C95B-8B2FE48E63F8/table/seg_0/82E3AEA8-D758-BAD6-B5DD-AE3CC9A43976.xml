@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82E3AEA8-D758-BAD6-B5DD-AE3CC9A43976" name="Payment">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>5BB2494C-6B00-6B11-0C51-41FF3ED9ABFA</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Payment_Num" id="C96B1DF6-8477-7514-7B65-86D90AD1FE35">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>8128DD03-0ACC-22A8-02EB-DE0711E3D88A</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment_Date" id="F893C99C-9E39-82D8-370D-E5CC7D817D19">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>D870F4C9-F183-8D78-3895-6601848480AB</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment_Amt" id="6CF4B9D3-D6D4-B079-3E88-EB4F75D2B53C">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>472EDA72-8BB0-DC37-C63C-20B48AD4A92B</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Member_Mem_Id" id="762ACC49-0423-4ACD-00B3-28DA54E39C7A">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>576C67E4-DE99-8171-173C-B11CAC5CA65F</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E918DF46-83A6-6E5B-990B-4A7AA98625A4" referredColumn="DF87F676-8CDD-B86B-FB22-E8CA21F50244"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE2BCB6F-A872-89A8-0159-232FEC293742" name="Payment_PK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>A91C645F-3E46-0EC2-A3E1-7B7A74EB7983</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C96B1DF6-8477-7514-7B65-86D90AD1FE35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAFEBC40-85D5-0D6E-5EEA-71684B3532EB" name="Payment_Member_FK">
+<createdBy>ahnal</createdBy>
+<createdTime>2021-08-21 03:53:25 UTC</createdTime>
+<generatorID>98489760-A9B3-5EE4-593D-FC2DCA790FEC</generatorID>
+<ownerDesignName>zumba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="762ACC49-0423-4ACD-00B3-28DA54E39C7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
