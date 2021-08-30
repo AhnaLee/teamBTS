@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+    <link rel="stylesheet" href="home-style.css"> 
+    <!--Call the Header and Footer-->
+    <script src="../Header and Footer/main.js"></script>
+</head>
+
+<body>
+  <!--Header-->
+  <my-header></my-header>
+
+  <!--Stick header-->
+  <div id="empty-space"></div>
+  
+  <!--Slideshow-->
+<div id="content">
+  <div class="slideshow-container" >  
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src=".\Slideshow Pictures\zumbaEvent2.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src=".\Slideshow Pictures\zumbaEvent3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src=".\Slideshow Pictures\zumbaEvent4.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  </div>
+  
+
+  <div class="flex-container1" style="background:transparent;">
+    <div class="item">
+      <a href="..\Class-page\Adult.html"> <img id="products" src=".\HomePage Pictures\zumbaAdult1.jpg" class="image"></a><center>Adult Zumba</center>
+    </div>
+    <div class="item">
+      <a href="..\Class-page\Adult.html"> <img id="products" src=".\HomePage Pictures\zumbaAdult3.jpg" class="image"></a><center>Adult Zumba</center>
+    </div>
+    <div class="item">
+      <a href="..\Class-page\Adult.html"><img id="products" src=".\HomePage Pictures\zumbaAdult2.jpg" class="image"></a><center>Adult Zumba</center>
+    </div>  
+  </div>
+
+  <div class="flex-container" style="background:transparent;">
+    <div class="item">
+      <a href="..\Class-page\Kids.html"><img id="products" src=".\HomePage Pictures\Kids5.png" class="image"></a><center>Kids Zumba</center>
+    </div>
+    <div class="item">
+      <a href="..\Class-page\Kids.html"><img id="products" src=".\HomePage Pictures\zumbaKids1.jpg" class="image"></a><center>Kids Zumba</center>
+    </div>
+    <div class="item">
+      <a href="..\Class-page\Kids.html"><img id="products" src=".\HomePage Pictures\Kids7.png" class="image"></a><center>Kids Zumba</center>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Footer-->
+<my-footer></my-footer>
+<!--Slide function-->
+<script src="home-app.js"></script>
+</div>
+</body>
+</html>
+
+

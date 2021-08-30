@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+#empty-space{
+  width: 100%; /*this is the first layer*/
+  height:130px;
+}
+
+
+/*Content*/
+#content{
+  padding: 0px 20%;
+}
+/* Slideshow */
+
+.mySlides {
+    display: none;
+    
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  top: 10px;
+}
+
+.prev{
+    position: absolute;
+    left: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:  rgba(0,0,0,0.8);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: 40px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height:500px;
+  padding: 0px 20%;
+}
+
+/*Size of the picture*/
+.flex-container .item {
+  height: 330px;
+  width: 330px;
+  position: relative;
+  background: transparent;
+}
+
+.flex-container .image {
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+}
+
+.flex-container .item a #products{
+  width: 100%;
+  transition: transform .2s;
+}
+
+/*CSS Effects*/
+.flex-container .item a #products:hover{
+  transform: scale(1.05);
+}
+
+.flex-container1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height:300px;
+  padding: 0px 20%;
+}
+
+.flex-container1 .item {
+  height: 330px;
+  width: 330px;
+  position: relative;
+  background: transparent;
+}
+
+.flex-container1 .image {
+  justify-content: space-around;
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+}
+
+.flex-container1 .item a #products{
+  width: 100%;
+  transition: transform .2s;
+}
+
+.flex-container1 .item a #products:hover{
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+

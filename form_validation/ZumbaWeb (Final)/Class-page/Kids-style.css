@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+#empty-space{
+  width: 100%;
+  height:125px;
+  background-color: transparent;
+}
+
+.sub-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom-style: solid;
+    position: relative;
+    top: 4px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+  
+.sub-menu .item1, .sub-menu .item2{
+    flex-grow: 1;   
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    background: transparent;
+}
+
+.sub-menu .item1{
+    text-align: right;
+    padding-right: 100px;
+}
+
+.sub-menu .item2{
+    text-align: left;
+    padding-left: 100px;
+}
+
+.sub-menu .item2:hover{
+    color: #0088A9;
+}
+
+/*When Kid is chosen - it's more noticeable*/
+.sub-menu .item2 a{
+    box-shadow: 1px 5px #888888;
+    padding: 9px 25px;  
+    background-color: rgb(0, 255, 255, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+/*So Adult should be less noticeable*/
+.sub-menu .item1 a{
+    /*box-shadow: 1px 5px #888888;*/
+    padding: 9px 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+/*But you can tell that Adult is clickable when mouse hovered*/
+.sub-menu .item1 a:hover{
+    box-shadow: 1px 5px #888888;
+    padding: 9px 25px;  
+    background-color: rgb(255, 255, 255, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+
+/*Products*/
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    justify-content: space-between;
+    padding: 10px 10%;
+  }
+  
+.products .item {
+    width: 32%;
+    padding-bottom: 32%;
+    margin-bottom: 5%; 
+    height: 0px;
+}
+
+.products .item #pic{
+    height: 80%;
+    width: 100%;
+}
+.products .image {
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+
+.products .item #pic #kidPics{
+    width: 100%; /*to fit to the 'item' div 100%*/
+    
+}
+
+.products .item #pic #kidPics:hover{
+    transform: scale(1.05);
+    
+}
+
+  
+
+	
